@@ -13,7 +13,7 @@ use log::{info, warn, error};
 
 const DEFAULT_SEARCH_DUR: Duration = Duration::from_secs(30);
 const MIN_USERS_JOIN: usize = 8; // minimum of users to join in given duration to trigger actions
-const DEFAULT_ACTION: Action = Action::Kick;
+const DEFAULT_ACTION: Action = Action::Ban;
 
 #[derive(Debug)]
 enum Action {
